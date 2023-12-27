@@ -1,0 +1,9 @@
+CREATE DATABASE Movie;
+USE Movie;
+CREATE TABLE FOM_Booking(
+ -> UNIQUE_ID char(8) NOT NULL PRIMARY KEY,
+ -> Movie_Name char(100) NOT NULL,
+ -> Theatre char(50) NOT NULL,
+ -> Timmings char(50) NOT NULL,
+ -> City char(50) NOT NULL,
+ -> Tickets integer NOT NULL);
